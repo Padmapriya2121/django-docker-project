@@ -1,0 +1,11 @@
+venv/
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
