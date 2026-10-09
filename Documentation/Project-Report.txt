@@ -1,0 +1,37 @@
+# PEP PROJECT REPORT
+
+## Project Title
+Django Application Deployment Using Docker, Jenkins, Terraform and AWS
+
+## 1. Objective
+To deploy a Django web application on AWS EC2 using Docker and demonstrate an automated build and image-publishing workflow with Jenkins.
+
+## 2. Technologies Used
+- Python and Django
+- Docker
+- GitHub
+- Jenkins
+- GitHub Container Registry (GHCR)
+- Terraform
+- Amazon Web Services (AWS EC2)
+
+## 3. Project Workflow
+1. Developed a Django web application.
+2. Stored the source code in GitHub.
+3. Used Jenkins to build the Docker image.
+4. Pushed the image to GitHub Container Registry.
+5. Used Terraform to provision AWS infrastructure.
+6. Pulled the Docker image onto an EC2 instance.
+7. Ran the Docker container and accessed the application through a web browser.
+
+## 4. Result
+The Django application was deployed successfully on an AWS EC2 instance. The browser displayed:
+
+"Hello from Django Docker!"
+
+"My first Docker project is working."
+
+The Jenkins build completed successfully, and the Docker image was published to GHCR.
+
+## 5. Conclusion
+This project provided practical experience with containerization, CI/CD automation, infrastructure as code, container registries, and cloud deployment.
